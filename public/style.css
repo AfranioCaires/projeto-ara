@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;  
+}
+
+body {
+    background-color: hsl(240, 14%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
