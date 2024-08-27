@@ -6,15 +6,15 @@
             </a>
         </div>
 
-        <div class="">
+        <div class="col p-3 d-flex flex-row justify-content-end nav-link">
             <div>
-                <a href="">Início</a>
+                <a class="m-5" href="">Início</a>
             </div>
             <div>
-                <a href="">Cursos</a>
+                <a class="m-5" href="">Cursos</a>
             </div>
             <div>
-                <a href="">Onde estamos?</a>
+                <a class="m-5" href="">Onde estamos?</a>
             </div>
         </div>
     </div>
