@@ -11,8 +11,8 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Main');
-$routes->setDefaultMethod('index');
+$routes->setDefaultController('Page');
+$routes->setDefaultMethod('/');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
@@ -26,10 +26,12 @@ $routes->set404Override();
  * Route Definitions
  * --------------------------------------------------------------------
  */
+
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('teste', 'Page::teste');
 
+$routes->get('home', 'Page::home');
+$routes->get('produtos', 'Page::produtos');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
